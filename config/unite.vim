@@ -17,21 +17,21 @@ let g:unite_source_grep_default_opts =
     \ '''.hg'' --ignore ''.svn'' --ignore ''.git'' --ignore ''.bzr'''
 let g:unite_source_grep_recursive_opt = ''
 
-" Leader key bindings:
-nmap <Leader>b :Unite buffer<CR>
-nmap <Leader>c :Unite command<CR>
-nmap <Leader>d :Unite directory_rec/async directory/new<CR>
-nmap <Leader>f :Unite file_rec/git:--cached:--others:--exclude-standard file/new<CR>
-nmap <Leader>F :Unite file_rec/async file/new<CR>
-nmap <Leader>g :Unite grep/git:/:--cached\ --untracked<CR>
-nmap <Leader>G :Unite grep:.<CR>
-nmap <Leader>H :Unite help<CR>
-nmap <Leader>l :Unite line<CR>
-nmap <Leader>r :UniteResume<CR>
-nmap <Leader>t :Unite tab<CR>
-nmap <Leader>u :Unite<CR>
-nmap <Leader>w :Unite window<CR>
-nmap <Leader>W :Unite window:all<CR>
+" Main key bindings:
+nmap <Tab>b :Unite buffer<CR>
+nmap <Tab>c :Unite command<CR>
+nmap <Tab>d :Unite directory_rec/async directory/new<CR>
+nmap <Tab>f :Unite file_rec/git:--cached:--others:--exclude-standard file/new<CR>
+nmap <Tab>F :Unite file_rec/async file/new<CR>
+nmap <Tab>g :Unite grep/git:/:--cached\ --untracked<CR>
+nmap <Tab>G :Unite grep:.<CR>
+nmap <Tab>H :Unite help<CR>
+nmap <Tab>l :Unite line<CR>
+nmap <Tab>r :UniteResume<CR>
+nmap <Tab>t :Unite tab<CR>
+nmap <Tab>u :Unite<CR>
+nmap <Tab>w :Unite window<CR>
+nmap <Tab>W :Unite window:all<CR>
 
 " Key bindings inside Unite buffers:
 autocmd FileType unite call s:UniteBuffer()

@@ -1,6 +1,6 @@
-nmap <Leader><Leader>b :Gbrowse<CR>
-nmap <Leader><Leader>d :Gdiff<CR>
-nmap <Leader><Leader>g :Gstatus<CR>
-nmap <Leader><Leader>p :Gpush<CR>
+nmap <Leader>gb :Gbrowse<CR>
+nmap <Leader>gd :Gdiff<CR>
+nmap <Leader>gg :Gstatus<CR>
+nmap <Leader>gp :Gpush<CR>
 " Show diff of both staged and unstaged changes in all the repo:
-nmap <Leader><Leader>D :Git! status -vv<CR>
+nmap <Leader>gs :Git! status -vv<CR>

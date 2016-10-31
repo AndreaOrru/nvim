@@ -10,8 +10,8 @@ Plug 'miyakogi/conoline.vim'
 
 " File browser:
 Plug 'scrooloose/nerdtree', {'on': ['NERDTreeToggle', 'NERDTreeFocus']}
-" Syntax checking:
-Plug 'neomake/neomake'
+Plug 'neomake/neomake'            " Syntax checking.
+Plug 'easymotion/vim-easymotion'  " Blazing fast movements.
 
 " Auto completion:
 Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins'}
