@@ -18,20 +18,21 @@ let g:unite_source_grep_default_opts =
 let g:unite_source_grep_recursive_opt = ''
 
 " Main key bindings:
-nmap <Tab>b :Unite buffer<CR>
-nmap <Tab>c :Unite command<CR>
-nmap <Tab>d :Unite directory_rec/async directory/new<CR>
-nmap <Tab>f :Unite file_rec/git:--cached:--others:--exclude-standard file/new<CR>
-nmap <Tab>F :Unite file_rec/async file/new<CR>
-nmap <Tab>g :Unite grep/git:/:--cached\ --untracked<CR>
-nmap <Tab>G :Unite grep:.<CR>
-nmap <Tab>h :Unite help<CR>
-nmap <Tab>l :Unite line<CR>
-nmap <Tab>r :UniteResume<CR>
-nmap <Tab>t :Unite tab<CR>
-nmap <Tab>u :Unite<CR>
-nmap <Tab>w :Unite window<CR>
-nmap <Tab>W :Unite window:all<CR>
+nmap [unite]b :Unite buffer<CR>
+nmap [unite]c :Unite command<CR>
+nmap [unite]d :Unite directory_rec/async directory/new<CR>
+nmap [unite]f :Unite file_rec/git:--cached:--others:--exclude-standard file/new<CR>
+nmap [unite]F :Unite file_rec/async file/new<CR>
+nmap [unite]g :Unite grep/git:/:--cached\ --untracked<CR>
+nmap [unite]G :Unite grep:.<CR>
+nmap [unite]h :Unite help<CR>
+nmap [unite]l :Unite line<CR>
+nmap [unite]r :UniteResume<CR>
+nmap [unite]t :Unite buffer:t <CR>
+nmap [unite]T :Unite tab<CR>
+nmap [unite], :Unite<CR>
+nmap [unite]w :Unite window:all<CR>
+nmap [unite]W :Unite window<CR>
 
 " Key bindings inside Unite buffers:
 autocmd FileType unite call s:UniteBuffer()

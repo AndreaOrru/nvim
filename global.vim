@@ -11,11 +11,8 @@ set hidden
 set completeopt+=noinsert  " Auto select the first completion candidate.
 set completeopt-=preview   " Don't show the preview/scratch window.
 
-" Disable the cursor line in the terminal emulator:
-autocmd TermOpen  * setlocal nocursorline
-autocmd TermClose * setlocal cursorline
+" Always start using terminals in insert mode:
+autocmd BufEnter,BufWinEnter,WinEnter term://* startinsert
 
-" Highlight the current line:
-set cursorline
 " Load a nice looking theme:
 colorscheme base16-oceanicnext
