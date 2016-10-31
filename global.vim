@@ -1,6 +1,10 @@
 " Treat tabs as 4 spaces:
-set shiftwidth=4
 set expandtab 
+set shiftwidth=4
+
+" Change the default direction of the splits:
+set splitbelow
+set splitright
 " Hide buffers instead of unloading them:
 set hidden
 
