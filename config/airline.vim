@@ -4,9 +4,9 @@ let g:airline_powerline_fonts = 1
 " Only show Git branch, tabs on the top, whitespace errors:
 let g:airline_extensions = ['branch', 'neomake', 'tabline', 'whitespace']
 
-let g:airline#extensions#tabline#buffer_idx_mode = 1    " Show indexes on buffers.
-let g:airline#extensions#tabline#buffer_min_count = 2   " Don't show the bar if there are less than 2 buffers.
-let g:airline#extensions#tabline#show_close_button = 0  " Don't show the close buttons on tabs.
+let g:airline#extensions#tabline#show_buffers = 0       " Don't show buffers.
+let g:airline#extensions#tabline#show_close_button = 0  " Don't show the close button on the right.
+let g:airline#extensions#tabline#show_splits = 0        " Don't show splits.
 let g:airline#extensions#tabline#show_tab_type = 0      " Don't show the number of splits in a tab.
 let g:airline#extensions#tabline#tab_nr_type = 1        " Show numbers on tabs.
 
