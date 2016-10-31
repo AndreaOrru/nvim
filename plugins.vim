@@ -11,7 +11,9 @@ Plug 'miyakogi/conoline.vim'
 " File browser:
 Plug 'scrooloose/nerdtree', {'on': ['NERDTreeToggle', 'NERDTreeFocus']}
 Plug 'neomake/neomake'            " Syntax checking.
-Plug 'easymotion/vim-easymotion'  " Blazing fast movements.
+
+Plug 'easymotion/vim-easymotion'     " Blazing fast movements.
+Plug 'terryma/vim-multiple-cursors'  " Multiple cursors.
 
 " Auto completion:
 Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins'}

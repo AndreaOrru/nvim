@@ -25,7 +25,7 @@ nmap <Tab>f :Unite file_rec/git:--cached:--others:--exclude-standard file/new<CR
 nmap <Tab>F :Unite file_rec/async file/new<CR>
 nmap <Tab>g :Unite grep/git:/:--cached\ --untracked<CR>
 nmap <Tab>G :Unite grep:.<CR>
-nmap <Tab>H :Unite help<CR>
+nmap <Tab>h :Unite help<CR>
 nmap <Tab>l :Unite line<CR>
 nmap <Tab>r :UniteResume<CR>
 nmap <Tab>t :Unite tab<CR>
