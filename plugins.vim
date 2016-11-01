@@ -13,9 +13,11 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'miyakogi/conoline.vim'
 
 Plug 'neomake/neomake'                 " Syntax checking.
-Plug 'easymotion/vim-easymotion'       " Blazing fast movements.
 Plug 'terryma/vim-multiple-cursors'    " Multiple cursors.
 Plug 'thirtythreeforty/lessspace.vim'  " Whitespace cleanup.
+Plug 'jiangmiao/auto-pairs'            " Automatic pair insertion/deletion.
+Plug 'bkad/camelcasemotion'            " TheseAreAllWords, you_get_it?!
+Plug 'easymotion/vim-easymotion'       " Blazing fast movements.
 
 " Auto completion:
 Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins'}
