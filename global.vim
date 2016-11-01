@@ -1,5 +1,5 @@
 " Wait less for key sequences to complete:
-set timeoutlen=200
+set timeoutlen=300
 
 " Treat tabs as 4 spaces:
 set expandtab
@@ -11,8 +11,8 @@ set hidden
 set splitbelow
 set splitright
 
+set pumheight=10           " Make autocompletion popup smaller.
 set previewheight=20       " Make preview windows bigger.
-set completeopt+=noinsert  " Auto select the first completion candidate.
 set completeopt-=preview   " Don't show the preview/scratch window.
 
 " Case sensitive only when the search pattern contains upper case character:
