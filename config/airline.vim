@@ -20,8 +20,19 @@ nmap <M-6> <Plug>AirlineSelectTab6
 nmap <M-7> <Plug>AirlineSelectTab7
 nmap <M-8> <Plug>AirlineSelectTab8
 nmap <M-9> <Plug>AirlineSelectTab9
-
 nmap <M-H> <Plug>AirlineSelectPrevTab
 nmap <M-L> <Plug>AirlineSelectNextTab
+
+" Same stuff but for the terminal emulator:
+tmap <M-1> <ESC><Plug>AirlineSelectTab1
+tmap <M-2> <ESC><Plug>AirlineSelectTab2
+tmap <M-3> <ESC><Plug>AirlineSelectTab3
+tmap <M-4> <ESC><Plug>AirlineSelectTab4
+tmap <M-5> <ESC><Plug>AirlineSelectTab5
+tmap <M-6> <ESC><Plug>AirlineSelectTab6
+tmap <M-7> <ESC><Plug>AirlineSelectTab7
+tmap <M-8> <ESC><Plug>AirlineSelectTab8
+tmap <M-9> <ESC><Plug>AirlineSelectTab9
+
 tmap <M-H> <ESC><Plug>AirlineSelectPrevTab
 tmap <M-L> <ESC><Plug>AirlineSelectNextTab
