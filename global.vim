@@ -1,5 +1,5 @@
 " Wait less for key sequences to complete:
-set timeoutlen=200  
+set timeoutlen=200
 
 " Treat tabs as 4 spaces:
 set expandtab

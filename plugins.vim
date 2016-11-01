@@ -8,12 +8,10 @@ Plug 'vim-airline/vim-airline-themes'
 " Display only one cursor line:
 Plug 'miyakogi/conoline.vim'
 
-" File browser:
-Plug 'scrooloose/nerdtree', {'on': ['NERDTreeToggle', 'NERDTreeFocus']}
-Plug 'neomake/neomake'            " Syntax checking.
-
-Plug 'easymotion/vim-easymotion'     " Blazing fast movements.
-Plug 'terryma/vim-multiple-cursors'  " Multiple cursors.
+Plug 'neomake/neomake'                 " Syntax checking.
+Plug 'easymotion/vim-easymotion'       " Blazing fast movements.
+Plug 'terryma/vim-multiple-cursors'    " Multiple cursors.
+Plug 'thirtythreeforty/lessspace.vim'  " Whitespace cleanup.
 
 " Auto completion:
 Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins'}
@@ -27,7 +25,8 @@ Plug 'tsukkee/unite-help'      " Help source for Unite.
 " Git integration:
 Plug 'tpope/vim-fugitive'      " Git wrapper.
 Plug 'airblade/vim-gitgutter'  " Show Git diff in the gutter.
-" Git support for NERDTree:
+" NERDTree file browser and Git support for it:
+Plug 'scrooloose/nerdtree', {'on': ['NERDTreeToggle', 'NERDTreeFocus']}
 Plug 'Xuyuanp/nerdtree-git-plugin', {'on': ['NERDTreeToggle', 'NERDTreeFocus']}
 
 call plug#end()
