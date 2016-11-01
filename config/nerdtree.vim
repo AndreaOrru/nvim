@@ -2,3 +2,4 @@
 let g:NERDTreeMinimalUI = 1
 
 nmap \\ :NERDTreeFocus<CR>
+nmap \  :NERDTreeToggle<CR>

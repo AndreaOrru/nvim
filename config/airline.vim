@@ -20,5 +20,8 @@ nmap <M-6> <Plug>AirlineSelectTab6
 nmap <M-7> <Plug>AirlineSelectTab7
 nmap <M-8> <Plug>AirlineSelectTab8
 nmap <M-9> <Plug>AirlineSelectTab9
+
 nmap <M-H> <Plug>AirlineSelectPrevTab
 nmap <M-L> <Plug>AirlineSelectNextTab
+tmap <M-H> <ESC><Plug>AirlineSelectPrevTab
+tmap <M-L> <ESC><Plug>AirlineSelectNextTab
