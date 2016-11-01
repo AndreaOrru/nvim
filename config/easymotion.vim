@@ -5,9 +5,9 @@ let g:EasyMotion_smartcase = 1
 let g:EasyMotion_use_smartsign_us = 1
 
 " Search for character across windows:
-nmap <Tab> <Plug>(easymotion-overwin-f)
-xmap <Tab> <Plug>(easymotion-bd-f)
-omap <Tab> <Plug>(easymotion-bd-f)
+nmap <TAB> <Plug>(easymotion-overwin-f)
+xmap <TAB> <Plug>(easymotion-bd-f)
+omap <TAB> <Plug>(easymotion-bd-f)
 
 " Search for word across windows:
 nmap <Leader>w <Plug>(easymotion-overwin-w)

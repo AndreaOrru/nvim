@@ -9,7 +9,7 @@ imap <expr><TAB> pumvisible() ? "<C-n>" : "<TAB>"
 " Backspace closes the popup and restores the previous state:
 imap <expr><BS> pumvisible() ? deoplete#smart_close_popup() : "<BS>"
 
-" Return just adds a newline (copied from documentation):
+" Return just adds a newline (NOTE: copied from documentation):
 inoremap <silent> <CR> <C-r>=<SID>CR()<CR>
 function! s:CR() abort
     return deoplete#close_popup() . "\<CR>"

@@ -18,7 +18,6 @@ let g:unite_source_grep_recursive_opt = ''
 
 " Main key bindings:
 nmap [unite], :Unite<CR>
-nmap [unite]; :Unite command<CR>
 nmap [unite]/ :Unite line<CR>
 nmap [unite]b :Unite buffer<CR>
 nmap [unite]d :Unite directory_rec/async directory/new<CR>

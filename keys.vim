@@ -26,6 +26,12 @@ tmap <M-l> <ESC><M-l>
 nmap <M-TAB> <C-^>
 tmap <M-TAB> <ESC><C-^>
 
+" Create split, vsplits and tabs quickly:
+nmap <Leader>s :split<CR>
+nmap <Leader>v :vsplit<CR>
+nmap <Leader>t :tabnew<CR>
+nmap <Leader>o <C-w><C-w>
+
 " Plugin prefixes:
 nmap , [unite]
 nmap <Leader>g [fugitive]
