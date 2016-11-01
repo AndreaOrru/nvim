@@ -17,6 +17,8 @@ let g:unite_source_grep_default_opts =
 let g:unite_source_grep_recursive_opt = ''
 
 " Main key bindings:
+nmap :: :Unite history/command<CR>
+nmap // :Unite history/search<CR>
 nmap [unite], :Unite<CR>
 nmap [unite]/ :Unite line<CR>
 nmap [unite]b :Unite buffer<CR>

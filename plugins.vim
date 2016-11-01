@@ -25,8 +25,9 @@ Plug 'zchee/deoplete-jedi', {'for': 'python'}  " Python support.
 
 " Unite plugin:
 Plug 'Shougo/vimproc.vim', {'do': 'make'}  " Asynchronous execution library.
-Plug 'Shougo/unite.vim'        " Library for filtering and selecting everything.
-Plug 'tsukkee/unite-help'      " Help source for Unite.
+Plug 'Shougo/unite.vim'          " Library for filtering and selecting everything.
+Plug 'tsukkee/unite-help'        " Help source for Unite.
+Plug 'thinca/vim-unite-history'  " Search through command and search history.
 
 " Git integration:
 Plug 'tpope/vim-fugitive'      " Git wrapper.
