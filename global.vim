@@ -20,7 +20,10 @@ set ignorecase
 set smartcase
 
 " Always start using terminals in insert mode:
-autocmd BufEnter,BufWinEnter,WinEnter term://* startinsert
+augroup Terminal
+    autocmd!
+    autocmd BufEnter,BufWinEnter,WinEnter term://* startinsert
+augroup END
 
 " Load a nice looking theme:
 colorscheme base16-oceanicnext

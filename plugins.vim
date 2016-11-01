@@ -1,3 +1,7 @@
+" Command to update plugins & vim-plug:
+command! PU PlugUpdate | PlugUpgrade
+
+
 call plug#begin()
 
 " Color scheme:

@@ -1,2 +1,5 @@
 " Run syntax checking after saving:
-autocmd BufWritePost * Neomake
+augroup Neomake
+    autocmd!
+    autocmd BufWritePost * Neomake
+augroup END
