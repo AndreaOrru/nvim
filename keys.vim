@@ -23,14 +23,18 @@ tmap <M-k> <ESC><M-k>
 tmap <M-l> <ESC><M-l>
 
 " More accessible shortcut for alternate buffer:
-nmap <M-TAB> <C-^>
-tmap <M-TAB> <ESC><C-^>
+nmap <S-TAB> <C-^>
 
-" Create split, vsplits and tabs quickly:
+" Manipulate windows and tabs quickly:
 nmap <Leader>s :split<CR>
 nmap <Leader>v :vsplit<CR>
+nmap <Leader>c :close<CR>
 nmap <Leader>t :tabnew<CR>
-nmap <Leader>o <C-w><C-w>
+nmap <Leader>C :tabclose<CR>
+nmap <Leader>o :only<CR>
+" Switch to previous window:
+nmap <M-TAB> <C-w>p
+tmap <M-TAB> <C-w>p
 
 " Plugin prefixes:
 nmap , [unite]
