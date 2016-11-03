@@ -1,5 +1,5 @@
 " Wait less for key sequences to complete:
-set timeoutlen=500
+set timeoutlen=300
 " Yanks are shared with Mac's clipboard:
 set clipboard=unnamed
 

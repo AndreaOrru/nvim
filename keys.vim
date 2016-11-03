@@ -3,6 +3,8 @@ inoremap <C-d> <DEL>
 cnoremap <C-d> <DEL>
 " Use Emacs-style bindings in command mode:
 cnoremap <C-a> <Home>
+cnoremap <C-p> <Up>
+cnoremap <C-n> <Down>
 cnoremap <C-b> <Left>
 cnoremap <C-f> <Right>
 
