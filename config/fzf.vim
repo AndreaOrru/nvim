@@ -1,3 +1,6 @@
+" Keep queries in history:
+let g:fzf_history_dir = '~/.local/share/fzf-history'
+
 nnoremap :: :Commands<CR>
 nnoremap // :BLines<CR>
 nnoremap <Space>/ :Lines<CR>
