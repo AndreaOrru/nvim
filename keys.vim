@@ -2,39 +2,28 @@
 let mapleader = "\<Space>"
 
 " Use C-d as DEL in insert and command mode:
-imap <C-d> <DEL>
-cmap <C-d> <DEL>
+inoremap <C-d> <DEL>
+cnoremap <C-d> <DEL>
 " Use Emacs-style bindings in command mode:
-cmap <C-a> <Home>
-cmap <C-b> <Left>
-cmap <C-f> <Right>
+cnoremap <C-a> <Home>
+cnoremap <C-b> <Left>
+cnoremap <C-f> <Right>
 
 " Easier way to get out of the terminal emulator:
-tmap <ESC> <C-\><C-n>
+tnoremap <C-w><C-w> <C-\><C-n>
 
 " Faster navigation between splits:
-nmap <M-h> <C-w>h
-nmap <M-j> <C-w>j
-nmap <M-k> <C-w>k
-nmap <M-l> <C-w>l
-tmap <M-h> <ESC><M-h>
-tmap <M-j> <ESC><M-j>
-tmap <M-k> <ESC><M-k>
-tmap <M-l> <ESC><M-l>
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 " More accessible shortcut for alternate buffer:
-nmap <S-TAB> <C-^>
+nnoremap <TAB><TAB> <C-^>
 
-" Manipulate windows and tabs quickly:
-nmap <Leader>s :split<CR>
-nmap <Leader>v :vsplit<CR>
-nmap <Leader>c :close<CR>
-nmap <Leader>t :tabnew<CR>
-nmap <Leader>C :tabclose<CR>
-nmap <Leader>o :only<CR>
-" Switch to previous window:
-nmap <M-TAB> <C-w>p
-tmap <M-TAB> <C-w>p
+" Manipulate tabs quickly:
+nnoremap <Leader>t :tabnew<CR>
+nnoremap <Leader>q :tabclose<CR>
 
 " Plugin prefixes:
 nmap , [unite]

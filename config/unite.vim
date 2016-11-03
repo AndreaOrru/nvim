@@ -1,3 +1,6 @@
+" Don't skip the first line while cycling through candidates:
+let g:unite_enable_auto_select = 0
+
 " Enably syntax highlighting:
 let g:unite_source_line_enable_highlight = 1
 
@@ -17,20 +20,18 @@ let g:unite_source_grep_default_opts =
 let g:unite_source_grep_recursive_opt = ''
 
 " Main key bindings:
-nmap :: :Unite history/command<CR>
-nmap // :Unite history/search<CR>
-nmap [unite], :Unite<CR>
-nmap [unite]/ :Unite line<CR>
-nmap [unite]b :Unite buffer<CR>
-nmap [unite]d :Unite directory_rec/async directory/new<CR>
-nmap [unite]f :Unite file_rec/git:--cached:--others:--exclude-standard file/new<CR>
-nmap [unite]F :Unite file_rec/async file/new<CR>
-nmap [unite]g :Unite grep/git:/:-i\ --cached\ --untracked<CR>
-nmap [unite]G :Unite grep:.<CR>
-nmap [unite]h :Unite help<CR>
-nmap [unite]r :UniteResume<CR>
-nmap [unite]t :Unite buffer:t<CR>
-nmap [unite]w :Unite window:all<CR>
+nnoremap // :Unite line<CR>
+nnoremap [unite], :Unite<CR>
+nnoremap [unite]b :Unite buffer<CR>
+nnoremap [unite]d :Unite directory_rec/async directory/new<CR>
+nnoremap [unite]f :Unite file_rec/git:--cached:--others:--exclude-standard file/new<CR>
+nnoremap [unite]F :Unite file_rec/async file/new<CR>
+nnoremap [unite]g :Unite grep/git:/:-i\ --cached\ --untracked<CR>
+nnoremap [unite]G :Unite grep:.<CR>
+nnoremap [unite]h :Unite help<CR>
+nnoremap [unite]r :UniteResume<CR>
+nnoremap [unite]t :Unite buffer:t<CR>
+nnoremap [unite]w :Unite window:all<CR>
 
 " Key bindings inside Unite buffers:
 augroup UniteBuffer
@@ -38,7 +39,7 @@ augroup UniteBuffer
     autocmd FileType unite call s:UniteBuffer()
     function! s:UniteBuffer()
         " Use C-{j,k} to cycle through completion candidates:
-        imap <buffer><C-j> <Down>
-        imap <buffer><C-k> <Up>
+        inoremap <buffer><C-j> <Down>
+        inoremap <buffer><C-k> <Up>
     endfunction
 augroup END

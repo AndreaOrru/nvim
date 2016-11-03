@@ -5,14 +5,14 @@ let g:EasyMotion_smartcase = 1
 let g:EasyMotion_use_smartsign_us = 1
 
 " Search for character across windows:
-nmap <TAB> <Plug>(easymotion-overwin-f)
-xmap <TAB> <Plug>(easymotion-bd-f)
-omap <TAB> <Plug>(easymotion-bd-f)
+nnoremap <TAB> <Plug>(easymotion-overwin-f)
+xnoremap <TAB> <Plug>(easymotion-bd-f)
+onoremap <TAB> <Plug>(easymotion-bd-f)
 
 " Search for word across windows:
-nmap <Leader>w <Plug>(easymotion-overwin-w)
-xmap <Leader>w <Plug>(easymotion-bd-w)
-omap <Leader>w <Plug>(easymotion-bd-w)
+nnoremap <Leader>w <Plug>(easymotion-overwin-w)
+xnoremap <Leader>w <Plug>(easymotion-bd-w)
+onoremap <Leader>w <Plug>(easymotion-bd-w)
 
 " Color configuration that makes sense:
 hi link EasyMotionTarget ErrorMsg

@@ -1,5 +1,7 @@
 " Wait less for key sequences to complete:
-set timeoutlen=300
+set timeoutlen=500
+" Yanks are shared with Mac's clipboard:
+set clipboard=unnamed
 
 " Treat tabs as 4 spaces:
 set expandtab
@@ -11,6 +13,7 @@ set hidden
 set splitbelow
 set splitright
 
+set scrolloff=1            " Number of lines to keep above/below cursor.
 set pumheight=10           " Make autocompletion popup smaller.
 set previewheight=20       " Make preview windows bigger.
 set completeopt-=preview   " Don't show the preview/scratch window.
@@ -18,12 +21,6 @@ set completeopt-=preview   " Don't show the preview/scratch window.
 " Case sensitive only when the search pattern contains upper case character:
 set ignorecase
 set smartcase
-
-" Always start using terminals in insert mode:
-augroup Terminal
-    autocmd!
-    autocmd BufEnter,BufWinEnter,WinEnter term://* startinsert
-augroup END
 
 " Load a nice looking theme:
 colorscheme base16-oceanicnext

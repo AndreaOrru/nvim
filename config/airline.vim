@@ -11,28 +11,14 @@ let g:airline#extensions#tabline#show_tab_type = 0      " Don't show the number 
 let g:airline#extensions#tabline#tab_nr_type = 1        " Show numbers on tabs.
 
 " Key bindings to quickly move around tabs:
-nmap <M-1> <Plug>AirlineSelectTab1
-nmap <M-2> <Plug>AirlineSelectTab2
-nmap <M-3> <Plug>AirlineSelectTab3
-nmap <M-4> <Plug>AirlineSelectTab4
-nmap <M-5> <Plug>AirlineSelectTab5
-nmap <M-6> <Plug>AirlineSelectTab6
-nmap <M-7> <Plug>AirlineSelectTab7
-nmap <M-8> <Plug>AirlineSelectTab8
-nmap <M-9> <Plug>AirlineSelectTab9
-nmap <M-H> <Plug>AirlineSelectPrevTab
-nmap <M-L> <Plug>AirlineSelectNextTab
-
-" Same stuff but for the terminal emulator:
-tmap <M-1> <ESC><Plug>AirlineSelectTab1
-tmap <M-2> <ESC><Plug>AirlineSelectTab2
-tmap <M-3> <ESC><Plug>AirlineSelectTab3
-tmap <M-4> <ESC><Plug>AirlineSelectTab4
-tmap <M-5> <ESC><Plug>AirlineSelectTab5
-tmap <M-6> <ESC><Plug>AirlineSelectTab6
-tmap <M-7> <ESC><Plug>AirlineSelectTab7
-tmap <M-8> <ESC><Plug>AirlineSelectTab8
-tmap <M-9> <ESC><Plug>AirlineSelectTab9
-
-tmap <M-H> <ESC><Plug>AirlineSelectPrevTab
-tmap <M-L> <ESC><Plug>AirlineSelectNextTab
+nnoremap <M-1> <Plug>AirlineSelectTab1
+nnoremap <M-2> <Plug>AirlineSelectTab2
+nnoremap <M-3> <Plug>AirlineSelectTab3
+nnoremap <M-4> <Plug>AirlineSelectTab4
+nnoremap <M-5> <Plug>AirlineSelectTab5
+nnoremap <M-6> <Plug>AirlineSelectTab6
+nnoremap <M-7> <Plug>AirlineSelectTab7
+nnoremap <M-8> <Plug>AirlineSelectTab8
+nnoremap <M-9> <Plug>AirlineSelectTab9
+nnoremap <M-h> <Plug>AirlineSelectPrevTab
+nnoremap <M-l> <Plug>AirlineSelectNextTab
