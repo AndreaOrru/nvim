@@ -11,14 +11,12 @@ let g:airline#extensions#tabline#show_tab_type = 0      " Don't show the number 
 let g:airline#extensions#tabline#tab_nr_type = 1        " Show numbers on tabs.
 
 " Key bindings to quickly move around tabs:
-nnoremap <M-1> <Plug>AirlineSelectTab1
-nnoremap <M-2> <Plug>AirlineSelectTab2
-nnoremap <M-3> <Plug>AirlineSelectTab3
-nnoremap <M-4> <Plug>AirlineSelectTab4
-nnoremap <M-5> <Plug>AirlineSelectTab5
-nnoremap <M-6> <Plug>AirlineSelectTab6
-nnoremap <M-7> <Plug>AirlineSelectTab7
-nnoremap <M-8> <Plug>AirlineSelectTab8
-nnoremap <M-9> <Plug>AirlineSelectTab9
-nnoremap <M-h> <Plug>AirlineSelectPrevTab
-nnoremap <M-l> <Plug>AirlineSelectNextTab
+nmap <Space>1 <Plug>AirlineSelectTab1
+nmap <Space>2 <Plug>AirlineSelectTab2
+nmap <Space>3 <Plug>AirlineSelectTab3
+nmap <Space>4 <Plug>AirlineSelectTab4
+nmap <Space>5 <Plug>AirlineSelectTab5
+nmap <Space>6 <Plug>AirlineSelectTab6
+nmap <Space>7 <Plug>AirlineSelectTab7
+nmap <Space>8 <Plug>AirlineSelectTab8
+nmap <Space>9 <Plug>AirlineSelectTab9

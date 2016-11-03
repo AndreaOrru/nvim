@@ -1,6 +1,6 @@
-nnoremap [fugitive]b :Gbrowse<CR>
-nnoremap [fugitive]d :Gdiff<CR>
-nnoremap [fugitive]g :Gstatus<CR>
-nnoremap [fugitive]P :Gpush<CR>
+nnoremap gb :Gbrowse<CR>
+nnoremap gd :Gdiff<CR>
+nnoremap gs :Gstatus<CR>
+nnoremap gP :Gpush<CR>
 " Show diff of both staged and unstaged changes in all the repo:
-nnoremap [fugitive]s :Git! status -vv<CR>
+nnoremap gD :Git! status -vv<CR>

@@ -19,6 +19,11 @@ Plug 'jiangmiao/auto-pairs'            " Automatic pair insertion/deletion.
 Plug 'bkad/camelcasemotion'            " TheseAreAllWords, you_get_it?!
 Plug 'easymotion/vim-easymotion'       " Blazing fast movements.
 
+" Blazing fast fuzzy finder for everything:
+Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
+" Auto completion:
+Plug 'davidhalter/jedi-vim', {'for': 'python'}
+
 " Git integration:
 Plug 'tpope/vim-fugitive'      " Git wrapper.
 Plug 'airblade/vim-gitgutter'  " Show Git diff in the gutter.
