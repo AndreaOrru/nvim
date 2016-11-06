@@ -10,6 +10,8 @@ cnoremap <C-f> <Right>
 
 " Easier way to get out of the terminal emulator:
 tnoremap <ESC> <C-\><C-n>
+" Quickly open a terminal emulator:
+nnoremap <Space><CR> :terminal<CR>
 
 " More accessible shortcut for alternate buffer:
 nnoremap <C-a> <C-^>

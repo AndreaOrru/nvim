@@ -21,8 +21,10 @@ Plug 'easymotion/vim-easymotion'       " Blazing fast movements.
 
 " Blazing fast fuzzy finder for everything:
 Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
-" Auto completion:
+
+" Languages support:
 Plug 'davidhalter/jedi-vim', {'for': 'python'}
+Plug 'freitass/todo.txt-vim', {'for': 'todo'}
 
 " Git integration:
 Plug 'tpope/vim-fugitive'      " Git wrapper.

@@ -1,14 +1,13 @@
-" Wait less for key sequences to complete:
-set timeoutlen=300
-" Yanks are shared with Mac's clipboard:
-set clipboard=unnamed
+set timeoutlen=300     " Wait less for key sequences to complete.
+set clipboard=unnamed  " Yanks are shared with Mac's clipboard.
+
+set hidden     " Hide buffers instead of unloading them.
+set autochdir  " Current directory is always the same as the buffer.
 
 " Treat tabs as 4 spaces:
 set expandtab
 set shiftwidth=4
 
-" Hide buffers instead of unloading them:
-set hidden
 " Change the default direction of the splits:
 set splitbelow
 set splitright
