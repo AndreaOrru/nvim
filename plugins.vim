@@ -17,7 +17,6 @@ Plug 'terryma/vim-multiple-cursors'    " Multiple cursors.
 Plug 'thirtythreeforty/lessspace.vim'  " Whitespace cleanup.
 Plug 'jiangmiao/auto-pairs'            " Automatic pair insertion/deletion.
 Plug 'bkad/camelcasemotion'            " TheseAreAllWords, you_get_it?!
-Plug 'easymotion/vim-easymotion'       " Blazing fast movements.
 
 " Blazing fast fuzzy finder for everything:
 Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -32,5 +31,7 @@ Plug 'airblade/vim-gitgutter'  " Show Git diff in the gutter.
 " NERDTree file browser and Git support for it:
 Plug 'scrooloose/nerdtree', {'on': ['NERDTreeToggle', 'NERDTreeFocus']}
 Plug 'Xuyuanp/nerdtree-git-plugin', {'on': ['NERDTreeToggle', 'NERDTreeFocus']}
+" Minimal file browser:
+Plug 'tpope/vim-vinegar'
 
 call plug#end()

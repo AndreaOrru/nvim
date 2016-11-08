@@ -22,14 +22,13 @@ nnoremap <Space><CR> :terminal<CR>
 nnoremap <C-a> <C-^>
 
 " Faster navigation between windows:
-nnoremap <TAB><TAB> <C-w><C-w>
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " Manipulate windows and tabs quickly:
-nnoremap <Space>s :split<CR>
+nnoremap <Space>x :split<CR>
 nnoremap <Space>v :vsplit<CR>
 nnoremap <Space>o :only<CR>
 nnoremap <Space>c :close<CR>
