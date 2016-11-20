@@ -21,6 +21,7 @@ set previewheight=20      " Make preview windows bigger.
 set completeopt-=preview  " Don't show the preview/scratch window.
 
 " Load a nice looking theme:
+let base16colorspace=256
 colorscheme base16-oceanicnext
 " Change the shape of the cursor in insert mode:
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1

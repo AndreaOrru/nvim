@@ -1,5 +1,6 @@
-" Enable fancy UTF-8 separators:
-let g:airline_powerline_fonts = 1
+" Disable fancy separators:
+let g:airline_left_sep=''
+let g:airline_right_sep=''
 
 " Only show Git branch, tabs on the top, whitespace errors:
 let g:airline_extensions = ['branch', 'neomake', 'tabline', 'whitespace']

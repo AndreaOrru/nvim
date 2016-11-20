@@ -19,7 +19,8 @@ Plug 'jiangmiao/auto-pairs'            " Automatic pair insertion/deletion.
 Plug 'bkad/camelcasemotion'            " TheseAreAllWords, you_get_it?!
 
 " Blazing fast fuzzy finder for everything:
-Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 
 " Languages support:
 Plug 'davidhalter/jedi-vim', {'for': 'python'}
