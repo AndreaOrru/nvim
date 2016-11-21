@@ -21,6 +21,7 @@ Plug 'bkad/camelcasemotion'            " TheseAreAllWords, you_get_it?!
 " Blazing fast fuzzy finder for everything:
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'AndreaOrru/fzf-mopidy-spotify.vim'  " Fuzzy-finder to control Spotify.
 
 " Languages support:
 Plug 'davidhalter/jedi-vim', {'for': 'python'}
