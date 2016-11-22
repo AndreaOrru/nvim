@@ -1,4 +1,4 @@
-" Hide useless help messages:
-let g:NERDTreeMinimalUI = 1
+let g:NERDTreeMinimalUI = 1    " Hide useless help messages.
+let g:NERDTreeHijackNetrw = 0  " Don't take over netrw globally.
 
-nnoremap <Leader>\ :NERDTreeFocus<CR>
+nnoremap <Leader><Leader> :NERDTreeFocus<CR>
