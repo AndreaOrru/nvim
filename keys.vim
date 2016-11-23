@@ -29,7 +29,7 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-nnoremap <C-p> <C-w>p
+nnoremap <C-w> <C-w>p
 
 " Manipulate windows and tabs quickly:
 nnoremap <Space>x :split<CR>
@@ -38,6 +38,3 @@ nnoremap <Space>o :only<CR>
 nnoremap <Space>c :close<CR>
 nnoremap <Space>t :tabnew<CR>
 nnoremap <Space>q :tabclose<CR>
-
-nnoremap <Space>s  :w<CR>
-nnoremap <Space>wq :wq<CR>
