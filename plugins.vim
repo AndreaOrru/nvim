@@ -26,6 +26,7 @@ Plug 'AndreaOrru/fzf-mopidy-spotify.vim'  " Fuzzy-finder to control Spotify.
 " Languages support:
 Plug 'davidhalter/jedi-vim', {'for': 'python'}
 Plug 'freitass/todo.txt-vim', {'for': 'todo'}
+Plug 'AndreaOrru/vim-dlang-autofold-unittest', {'for': 'd'}
 
 " Git integration:
 Plug 'tpope/vim-fugitive'      " Git wrapper.
