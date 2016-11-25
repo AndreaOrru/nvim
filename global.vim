@@ -1,5 +1,5 @@
-set timeoutlen=300     " Wait less for key sequences to complete.
-set clipboard=unnamed  " Yanks are shared with Mac's clipboard.
+set timeoutlen=300         " Wait less for key sequences to complete.
+set clipboard=unnamedplus  " Yanks are shared with the clipboard.
 " Hide buffers instead of unloading them:
 set hidden
 
