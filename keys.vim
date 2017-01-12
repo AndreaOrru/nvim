@@ -17,7 +17,7 @@ inoremap <expr><C-k> pumvisible() ? "<C-p>" : "<C-k>"
 inoremap <expr><CR>  pumvisible() ? "<C-y>" : "<CR>"
 
 " Easier way to get out of the terminal emulator:
-tnoremap <ESC><ESC> <C-\><C-n>
+tnoremap <ESC> <C-\><C-n>
 " Quickly open a terminal emulator:
 nnoremap <Space><CR> :terminal<CR>
 
@@ -29,7 +29,7 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-nnoremap <C-w> <C-w>p
+nnoremap <C-w> <C-w>w
 
 " Manipulate windows and tabs quickly:
 nnoremap <Space>x :split<CR>
