@@ -1,5 +1,5 @@
 " Keep queries in history:
-let g:fzf_history_dir = '~/.local/share/fzf-history'
+let g:fzf_history_dir = '~/.local/share/nvim/fzf-history'
 
 nnoremap // :BLines<CR>
 nnoremap <Space>/ :Lines<CR>

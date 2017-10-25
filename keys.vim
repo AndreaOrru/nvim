@@ -1,6 +1,9 @@
 " More accessible leader:
 let mapleader = ","
 
+" Set working directory to current file:
+nnoremap <Leader>cd :cd %:p:h<CR>:pwd<CR>
+
 " Use C-d as DEL in insert and command mode:
 inoremap <C-d> <DEL>
 cnoremap <C-d> <DEL>
