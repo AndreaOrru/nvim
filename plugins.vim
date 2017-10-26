@@ -17,6 +17,10 @@ Plug 'thirtythreeforty/lessspace.vim'  " Whitespace cleanup.
 Plug 'jiangmiao/auto-pairs'            " Automatic pair insertion/deletion.
 Plug 'bkad/CamelCaseMotion'            " TheseAreAllWords, you_get_it?!
 
+" Language support:
+Plug 'w0rp/ale'     " Linter.
+Plug 'mxw/vim-jsx'  " React/JSX highlighting.
+
 " Blazing fast fuzzy finder for everything:
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
