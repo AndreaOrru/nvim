@@ -1,5 +1,5 @@
-nnoremap <Leader>gd :Gdiff<CR>
-nnoremap <Leader>gs :Gstatus<CR>
-nnoremap <Leader>gp :Gpush<CR>
+nnoremap <silent> <Leader>gd :Gdiff<CR>
+nnoremap <silent> <Leader>gs :Gstatus<CR>
+nnoremap <silent> <Leader>gp :Gpush<CR>
 " Show diff of both staged and unstaged changes in all the repo:
-nnoremap <Leader>gD :Git! status -vv<CR>
+nnoremap <silent> <Leader>gD :Git! status -vv<CR>
