@@ -4,9 +4,9 @@ set clipboard=unnamedplus  " Yanks are shared with the clipboard.
 " Hide buffers instead of unloading them:
 set hidden
 
-" Treat tabs as 4 spaces:
+" Treat tabs as 2 spaces:
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 
 " Case sensitive only when the search pattern contains upper case character:
 set ignorecase
