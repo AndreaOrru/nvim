@@ -14,7 +14,6 @@ cnoremap <silent> <C-f> <Right>
 " Shortcuts for the autocompletion popup:
 inoremap <silent> <expr><C-j> pumvisible() ? "<C-n>" : "<C-j>"
 inoremap <silent> <expr><C-k> pumvisible() ? "<C-p>" : "<C-k>"
-inoremap <silent> <expr><CR>  pumvisible() ? "<C-y>" : "<CR>"
 
 " Easier way to get out of the terminal emulator:
 tnoremap <silent> <ESC> <C-\><C-n>
