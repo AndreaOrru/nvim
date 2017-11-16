@@ -20,7 +20,7 @@ Plug 'bkad/CamelCaseMotion'            " TheseAreAllWords, you_get_it?!
 " Language support:
 Plug 'roxma/nvim-completion-manager'   " Autocompletion.
 Plug 'w0rp/ale'                        " Linter.
-Plug 'mxw/vim-jsx'                     " React/JSX highlighting.
+Plug 'mxw/vim-jsx', { 'for': 'javascript.jsx' }  " React/JSX highlighting.
 
 " Blazing fast fuzzy finder for everything:
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
