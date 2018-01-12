@@ -25,6 +25,9 @@ nnoremap <silent> <C-a> <C-^>
 " Clear last search:
 nnoremap <silent> <Leader>n :noh<CR>
 
+" Select pasted text:
+nnoremap gp `[v`]
+
 " Faster navigation between windows:
 nnoremap <silent> <C-h> <C-w>h
 nnoremap <silent> <C-j> <C-w>j

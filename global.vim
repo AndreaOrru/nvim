@@ -1,6 +1,7 @@
 set mouse=a                " Enable mouse support.
 set timeoutlen=300         " Wait less for key sequences to complete.
 set clipboard=unnamedplus  " Yanks are shared with the clipboard.
+set title                  " Change the terminal title.
 " Hide buffers instead of unloading them:
 set hidden
 
@@ -22,4 +23,5 @@ set previewheight=20      " Make preview windows bigger.
 set completeopt-=preview  " Don't show the preview/scratch window.
 
 " Load a nice looking theme:
+let base16colorspace=256
 colorscheme base16-tomorrow-night
