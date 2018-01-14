@@ -34,6 +34,7 @@ Plug 'airblade/vim-gitgutter'  " Show Git diff in the gutter.
 " NERDTree file browser and Git support for it:
 Plug 'scrooloose/nerdtree', {'on': ['NERDTreeToggle', 'NERDTreeFocus']}
 Plug 'Xuyuanp/nerdtree-git-plugin', {'on': ['NERDTreeToggle', 'NERDTreeFocus']}
-Plug 'tpope/vim-vinegar'       " Minimal file browser.
+Plug 'tpope/vim-vinegar'      " Minimal file browser.
+Plug 'chrisbra/SudoEdit.vim'  " Edit files using sudo.
 
 call plug#end()
