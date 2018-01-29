@@ -27,6 +27,8 @@ nnoremap <silent> <Leader>n :noh<CR>
 
 " Select pasted text:
 nnoremap gp `[v`]
+" Change directory to current file:
+nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 
 " Faster navigation between windows:
 nnoremap <silent> <C-h> <C-w>h
