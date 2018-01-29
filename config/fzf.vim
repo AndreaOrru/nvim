@@ -16,4 +16,4 @@ nnoremap <silent> <Leader>f :GFiles<CR>
 nnoremap <silent> <Leader>gf :GFiles!?<CR>
 nnoremap <silent> <Leader>r :History<CR>
 
-nnoremap <silent> <Leader>h :Helptags<CR>
+nnoremap <silent> <Leader>H :Helptags<CR>
