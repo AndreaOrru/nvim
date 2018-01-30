@@ -35,6 +35,7 @@ nnoremap <silent> <C-h> <C-w>h
 nnoremap <silent> <C-j> <C-w>j
 nnoremap <silent> <C-k> <C-w>k
 nnoremap <silent> <C-l> <C-w>l
+nnoremap <silent> <C-w> <C-w>w
 nnoremap <silent> <Leader>o <C-w>w
 
 " Manipulate windows and tabs quickly:
