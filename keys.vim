@@ -16,7 +16,7 @@ inoremap <silent> <expr><C-j> pumvisible() ? "<C-n>" : "<C-j>"
 inoremap <silent> <expr><C-k> pumvisible() ? "<C-p>" : "<C-k>"
 
 " Easier way to get out of the terminal emulator:
-tnoremap <silent> <ESC> <C-\><C-n>:close<CR>
+tnoremap <silent> <ESC> <C-\><C-n>
 " Quickly open a terminal emulator:
 nnoremap <silent> <Leader><CR> :terminal<CR>a
 
