@@ -2,14 +2,14 @@
 let mapleader = " "
 
 " Use C-d as DEL in insert and command mode:
-inoremap <silent> <C-d> <DEL>
-cnoremap <silent> <C-d> <DEL>
+inoremap <C-d> <DEL>
+cnoremap <C-d> <DEL>
 " Use Emacs-style bindings in command mode:
-cnoremap <silent> <C-a> <Home>
-cnoremap <silent> <C-p> <Up>
-cnoremap <silent> <C-n> <Down>
-cnoremap <silent> <C-b> <Left>
-cnoremap <silent> <C-f> <Right>
+cnoremap <C-a> <Home>
+cnoremap <C-p> <Up>
+cnoremap <C-n> <Down>
+cnoremap <C-b> <Left>
+cnoremap <C-f> <Right>
 
 " Shortcuts for the autocompletion popup:
 inoremap <silent> <expr><C-j> pumvisible() ? "<C-n>" : "<C-j>"
