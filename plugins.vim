@@ -20,11 +20,11 @@ Plug 'bkad/CamelCaseMotion'            " TheseAreAllWords, you_get_it?!
 " Language support:
 Plug 'roxma/nvim-completion-manager'   " Autocompletion.
 Plug 'w0rp/ale'                        " Linter.
-Plug 'mxw/vim-jsx', { 'for': 'javascript.jsx' }  " React/JSX highlighting.
-Plug 'zig-lang/zig.vim', { 'for': 'zig' }        " Zig support.
+Plug 'mxw/vim-jsx', {'for': 'javascript.jsx'}  " React/JSX highlighting.
+Plug 'zig-lang/zig.vim', {'for': 'zig'}        " Zig support.
 
 " Blazing fast fuzzy finder for everything:
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'}
 Plug 'junegunn/fzf.vim'
 
 " Git integration:
@@ -34,7 +34,7 @@ Plug 'airblade/vim-gitgutter'  " Show Git diff in the gutter.
 " NERDTree file browser and Git support for it:
 Plug 'scrooloose/nerdtree', {'on': ['NERDTreeToggle', 'NERDTreeFocus']}
 Plug 'Xuyuanp/nerdtree-git-plugin', {'on': ['NERDTreeToggle', 'NERDTreeFocus']}
-Plug 'tpope/vim-vinegar'      " Minimal file browser.
-Plug 'chrisbra/SudoEdit.vim'  " Edit files using sudo.
+Plug 'tpope/vim-vinegar'       " Minimal file browser.
+Plug 'chrisbra/SudoEdit.vim'   " Edit files using sudo.
 
 call plug#end()
