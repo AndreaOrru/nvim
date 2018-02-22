@@ -25,4 +25,4 @@ set completeopt-=preview  " Don't show the preview/scratch window.
 
 " Load a nice looking theme:
 let base16colorspace=256
-colorscheme base16-tomorrow-night
+colorscheme base16-gruvbox-dark-pale
