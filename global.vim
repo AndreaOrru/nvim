@@ -5,9 +5,9 @@ set title                  " Change the terminal title.
 " Hide buffers instead of unloading them:
 set hidden
 
-" Treat tabs as 4 spaces:
+" Treat tabs as 4 spaces, indent 2 spaces:
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 set tabstop=4
 
 " Case sensitive only when the search pattern contains upper case character:

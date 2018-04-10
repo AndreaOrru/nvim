@@ -12,16 +12,17 @@ Plug 'vim-airline/vim-airline-themes'
 " Display only one cursor line:
 Plug 'miyakogi/conoline.vim'
 
-Plug 'terryma/vim-multiple-cursors'    " Multiple cursors.
-Plug 'thirtythreeforty/lessspace.vim'  " Whitespace cleanup.
-Plug 'jiangmiao/auto-pairs'            " Automatic pair insertion/deletion.
-Plug 'bkad/CamelCaseMotion'            " TheseAreAllWords, you_get_it?!
+Plug 'terryma/vim-multiple-cursors'      " Multiple cursors.
+Plug 'thirtythreeforty/lessspace.vim'    " Whitespace cleanup.
+Plug 'jiangmiao/auto-pairs'              " Automatic pair insertion/deletion.
+Plug 'bkad/CamelCaseMotion'              " TheseAreAllWords, you_get_it?!
 
 " Language support:
-Plug 'roxma/nvim-completion-manager'   " Autocompletion.
-Plug 'w0rp/ale'                        " Linter.
-Plug 'mxw/vim-jsx', {'for': 'javascript.jsx'}  " React/JSX highlighting.
-Plug 'zig-lang/zig.vim', {'for': 'zig'}        " Zig support.
+Plug 'roxma/nvim-completion-manager'     " Autocompletion.
+Plug 'w0rp/ale'                          " Linter.
+Plug 'zig-lang/zig.vim', {'for': 'zig'}  " Zig support.
+Plug 'mxw/vim-jsx', {'for': 'javascript.jsx'}                   " React/JSX highlighting.
+Plug 'alvan/vim-closetag', {'for': ['html', 'javascript.jsx']}  " Automatically close tags.
 
 " Blazing fast fuzzy finder for everything:
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'}
