@@ -9,6 +9,8 @@ let g:ale_sign_error='●'
 let g:ale_sign_warning='●'
 
 " Sober coloring for signs:
-let fg = synIDattr(hlID('Error'), 'bg')
-let bg = synIDattr(hlID('SignColumn'), 'bg')
-exec 'hi! ALEErrorSign ctermfg='.fg.' ctermbg='.bg
+let fg    = synIDattr(hlID('Error'),      'bg', 'cterm')
+let bg    = synIDattr(hlID('SignColumn'), 'bg', 'cterm')
+let guifg = synIDattr(hlID('Error'),      'bg', 'gui')
+let guibg = synIDattr(hlID('SignColumn'), 'bg', 'gui')
+exec 'hi! ALEErrorSign ctermfg='.fg.' ctermbg='.bg.' guifg='.guifg.' guibg='.guibg

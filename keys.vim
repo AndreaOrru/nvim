@@ -30,12 +30,6 @@ nnoremap gp `[v`]
 " Change directory to current file:
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 
-" Faster navigation between windows:
-nnoremap <silent> <C-h> <C-w>h
-nnoremap <silent> <C-j> <C-w>j
-nnoremap <silent> <C-k> <C-w>k
-nnoremap <silent> <C-l> <C-w>l
-
 " Manipulate windows and tabs Emacs-style:
 nnoremap <silent> <C-x>o <C-w>w
 nnoremap <silent> <C-x>0 :close<CR>

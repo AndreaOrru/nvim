@@ -3,7 +3,7 @@ let g:fzf_history_dir = '~/.local/share/nvim/fzf-history'
 
 nnoremap <silent> <C-s> :BLines<CR>
 nnoremap <silent> <Leader>s :Lines<CR>
-nnoremap <silent> <Leader>/ :Rg<CR>
+nnoremap <Leader>/ :Rg 
 " Search the word under the cursor:
 nnoremap <silent> <Leader>* :Rg! <C-r><C-w><CR>
 
