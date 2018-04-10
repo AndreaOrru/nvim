@@ -21,9 +21,9 @@ tnoremap <silent> <ESC> <C-\><C-n>
 nnoremap <silent> <Leader><CR> :terminal<CR>a
 
 " Shortcut for alternate buffer:
-nnoremap <silent> <C-a> <C-^>
+nnoremap <silent> <Leader><Tab> <C-^>
 " Clear last search:
-nnoremap <silent> <Leader>n :noh<CR>
+nnoremap <silent> <Leader>sc :noh<CR>
 
 " Select pasted text:
 nnoremap gp `[v`]
@@ -35,11 +35,11 @@ nnoremap <silent> <C-h> <C-w>h
 nnoremap <silent> <C-j> <C-w>j
 nnoremap <silent> <C-k> <C-w>k
 nnoremap <silent> <C-l> <C-w>l
-nnoremap <silent> <C-w> <C-w>w
 
-" Manipulate windows and tabs quickly:
-nnoremap <silent> <Leader>x :split<CR>
-nnoremap <silent> <Leader>v :vsplit<CR>
-nnoremap <silent> <Leader>o :only<CR>
-nnoremap <silent> <Leader>c :close<CR>
-nnoremap <silent> <Leader>p :pclose<CR>
+" Manipulate windows and tabs Emacs-style:
+nnoremap <silent> <C-x>o <C-w>w
+nnoremap <silent> <C-x>0 :close<CR>
+nnoremap <silent> <C-x>1 :only<CR>
+nnoremap <silent> <C-x>2 :split<CR>
+nnoremap <silent> <C-x>3 :vsplit<CR>
+nnoremap <silent> <C-x>p :pclose<CR>

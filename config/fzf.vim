@@ -3,15 +3,15 @@ let g:fzf_history_dir = '~/.local/share/nvim/fzf-history'
 
 nnoremap <silent> <C-s> :BLines<CR>
 nnoremap <silent> <Leader>s :Lines<CR>
-nnoremap <Leader>a :Rg 
+nnoremap <silent> <Leader>/ :Rg<CR>
 " Search the word under the cursor:
-nnoremap <silent> <Leader>8 :Rg! <C-r><C-w><CR>
+nnoremap <silent> <Leader>* :Rg! <C-r><C-w><CR>
 
 nnoremap <silent> <Leader><Leader> :Buffers<CR>
-nnoremap <silent> <Leader>F :Files<CR>
-nnoremap <silent> <Leader>f :GFiles<CR>
+nnoremap <silent> <Leader>ff :Files<CR>
+nnoremap <silent> <Leader>pf :GFiles<CR>
 nnoremap <silent> <Leader>gf :GFiles!?<CR>
-nnoremap <silent> <Leader>r :History<CR>
+nnoremap <silent> <Leader>fr :History<CR>
 
 nnoremap <silent> <Leader>H :Helptags<CR>
 
