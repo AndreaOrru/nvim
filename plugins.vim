@@ -17,12 +17,19 @@ Plug 'thirtythreeforty/lessspace.vim'    " Whitespace cleanup.
 Plug 'jiangmiao/auto-pairs'              " Automatic pair insertion/deletion.
 Plug 'bkad/CamelCaseMotion'              " TheseAreAllWords, you_get_it?!
 
+" Auto-completion:
+Plug 'roxma/nvim-completion-manager'
+Plug 'roxma/nvim-cm-tern',  {'do': 'npm install'}
+Plug 'roxma/ncm-flow'
+" Syntax checker and linter:
+Plug 'w0rp/ale'
+
 " Language support:
-Plug 'roxma/nvim-completion-manager'     " Autocompletion.
-Plug 'w0rp/ale'                          " Linter.
 Plug 'zig-lang/zig.vim', {'for': 'zig'}  " Zig support.
-Plug 'mxw/vim-jsx', {'for': 'javascript.jsx'}                   " React/JSX highlighting.
-Plug 'alvan/vim-closetag', {'for': ['html', 'javascript.jsx']}  " Automatically close tags.
+Plug 'pangloss/vim-javascript', {'for': 'javascript.jsx'}  " JavaScript highlighthing.
+Plug 'mxw/vim-jsx', {'for': 'javascript.jsx'}              " React/JSX highlighting.
+" Automatically close tags:
+Plug 'alvan/vim-closetag', {'for': ['html', 'javascript.jsx']}
 
 " Blazing fast fuzzy finder for everything:
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'}
