@@ -14,7 +14,8 @@ let guifg = synIDattr(hlID('Error'),      'bg', 'gui')
 let guibg = synIDattr(hlID('SignColumn'), 'bg', 'gui')
 exec 'hi! ALEErrorSign ctermfg='.fg.' ctermbg='.bg.' guifg='.guifg.' guibg='.guibg
 
-" Automatic fixers:
+" Fix files on save.
+let g:ale_fix_on_save = 1
 let g:ale_fixers = {
 \  'javascript': ['eslint'],
 \}
